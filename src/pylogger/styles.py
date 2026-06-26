@@ -40,3 +40,4 @@ class LevelsColors:
     warning = ColorCombo(fg=Colors.orange)
     error = ColorCombo(fg=Colors.red)
     fatal = ColorCombo(fg=Colors.white, bg=Colors.red)
+    success = ColorCombo(fg=Colors.green)
