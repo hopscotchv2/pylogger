@@ -80,6 +80,10 @@ class Logger:
     def fatal(cls, message: str, prefix: Optional[str] = None) -> None:
         cls.log(message=message, level=Levels.FATAL, prefix=prefix)
 
+    @classmethod
+    def success(cls, message: str, prefix: Optional[str] = None) -> None:
+        cls.log(message=message, level=Levels.SUCCESS, prefix=prefix)
+
 
 "Instance logging, with prefix"
 class PrefixLogger(Logger):
