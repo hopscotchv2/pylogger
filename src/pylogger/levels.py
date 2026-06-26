@@ -64,4 +64,5 @@ class Levels:
     WARNING = LevelModel(name="WARNING", color=LevelsColors.warning, value=2)
     ERROR = LevelModel(name="ERROR", color=LevelsColors.error, value=3)
     FATAL = LevelModel(name="FATAL", color=LevelsColors.fatal, value=4)
+    SUCCESS = LevelModel(name="SUCCESS", color=LevelsColors.success, value=1)
 
